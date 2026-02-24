@@ -33,11 +33,21 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
+.logo {
+    display: flex;       /* Membuat elemen di dalamnya berjejer ke samping */
+    align-items: center; /* Menyejajarkan logo dan teks tepat di tengah secara vertikal */
+    gap: 15px;           /* Memberikan jarak antara logo dan nama perusahaan */
 }
 
-img {
-    max-width: 100%;
-    height: auto;
+.logo img {
+    height: 50px;        /* Atur tinggi logo sesuai kebutuhan */
+    width: auto;
+}
+
+.brand-name {
+    font-size: 1.5rem;   /* Ukuran font nama perusahaan */
+    font-weight: bold;   /* Menebalkan teks */
+    color: #333;         /* Warna teks */
 }
 
 /* Header Styles */
