@@ -1,401 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="PT. Sarana Pamunah Limbah Indonesia - Jasa Pengolahan Limbah B3 Profesional dan Berizin">
-    <title>PT. Sarana Pamunah Limbah Indonesia - Jasa Pengolahan Limbah B3</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Sederhana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Header -->
-   <header class="header">
-    <div class="container">
-        <nav class="nav-wrapper">
-            <a href="#" class="logo-brand">
-                <img src="images/logo-anda.png" alt="Logo SPLI">
-                <span class="brand-name">PT. SPLI</span>
-            </a>
-
-            <ul class="nav-menu">
-                <li><a href="#layanan">Layanan</a></li>
-                <li><a href="#tentang">Tentang</a></li>
-                <li><a href="#kontak">Kontak</a></li>
-                <li><a href="#" class="btn-portal">Portal Klien</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
-                
-                <nav class="nav-menu">
-                    <ul>
-                        <li class="dropdown">
-                            <a href="#layanan">Layanan <i class="fas fa-chevron-down"></i></a>
-                            <ul class="dropdown-menu">
-                                <li><a href="#pengangkutan-limbah-b3">Pengangkutan Limbah B3</a></li>
-                                <li><a href="#pengumpulan-limbah-b3">Mitra Strategis Pengumpulan Limbah B3 Berizin</a></li>
-                                <li><a href="#pengolahan-limbah-b3">Mitra Strategis Pengolahan Limbah B3</a></li>
-                                <li><a href="#pengemasan-ulang">Pengemasan Ulang Limbah B3</a></li>
-                                <li><a href="#pengolahan-sampah">Pengelolaan Sampah</a></li>
-                                <li><a href="#pemusnahan-dokumen-dan-produk-kadaluarsa">Pemusnahan Dokumen dan Produk Kadaluarsa Bersertifikat</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#tentang">Tentang Kami</a></li>
-                        <li><a href="#teknologi">Teknologi</a></li>
-                        <li><a href="#kontak-kami">Kontak Kami</a></li>
-                        <li><a href="#portal-klien">Portal Klien</a></li>
-                    </ul>
-                </nav>
-                
-                <div class="header-buttons">
-                    <a href="#info" class="btn btn-outline">Info Penawaran</a>
-                    <a href="#kontak" class="btn btn-primary">Kontak Kami</a>
-                </div>
-                
-                <button class="mobile-menu-toggle" aria-label="Toggle Menu">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </div>
-        </div>
-    </header>
-
-    <!-- Hero Slider -->
-    <section class="hero-slider">
-        <div class="slider-container">
-            <div class="slide active" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image1.png')">
-                <div class="container">
-                    <div class="slide-content">
-                        <h1>Jasa Pengangkutan Limbah Bertanggung Jawab</h1>
-                        <p>Solusi pengangkutan limbah B3 yang aman, legal, dan profesional</p>
-                        <a href="#layanan" class="btn btn-primary">Pelajari Lebih Lanjut</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image2.png')">
-                <div class="container">
-                    <div class="slide-content">
-                        <h1>Kelola Limbah Secara Profesional<br>Bersama Kami</h1>
-                        <p>Pengalaman lebih dari 20 tahun dalam pengelolaan limbah B3</p>
-                        <a href="#tentang" class="btn btn-primary">Tentang Kami</a>
-                    </div>
-                </div>
-            </div>
-            <div class="slide" style="background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('image3.jpg')">
-                <div class="container">
-                    <div class="slide-content">
-                        <h1>Hubungi Kami untuk Informasi<br>Lebih Lanjut</h1>
-                        <p>Tim profesional siap membantu kebutuhan pengelolaan limbah Anda</p>
-                        <a href="#kontak" class="btn btn-primary">Kontak Kami</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="slider-controls">
-            <button class="slider-prev" aria-label="Previous Slide"><i class="fas fa-chevron-left"></i></button>
-            <button class="slider-next" aria-label="Next Slide"><i class="fas fa-chevron-right"></i></button>
-        </div>
-        <div class="slider-dots"></div>
+  <header class="container">
+    <nav class="nav">
+      <div class="logo">Spli</div>
+      <button id="theme-toggle" class="btn">Tema</button>
+    </nav>
+  </header>
+  <main class="container">
+    <section class="hero">
+      <h1>Buat Website Modern</h1>
+      <p>Landing page responsif yang cepat dan sederhana.</p>
+      <div class="actions">
+        <a class="btn primary" href="#mulai">Mulai</a>
+        <a class="btn" href="#fitur">Lihat Fitur</a>
+      </div>
     </section>
 
-    <!-- Jasa Kami Section -->
-    <section id="layanan" class="services-highlight">
-        <div class="container">
-            <h2 class="section-title">Jasa Kami</h2>
-            <div class="services-grid-3">
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1601513445506-2ab0d4fb4229?w=600&h=400&fit=crop" alt="Pengangkutan Limbah">
-                    </div>
-                    <h3>Jasa Pengangkutan Limbah dengan Legalitas</h3>
-                    <p>Layanan pengangkutan limbah B3 yang dilengkapi dengan perizinan lengkap dan armada bersertifikat</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?w=600&h=400&fit=crop" alt="Pengumpulan Limbah">
-                    </div>
-                    <h3>Jasa Pengumpulan Limbah Berizin</h3>
-                    <p>Mitra strategis terpercaya dalam pengumpulan limbah B3 dengan standar keamanan tinggi</p>
-                </div>
-                <div class="service-card">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?w=600&h=400&fit=crop" alt="Pengolahan Limbah">
-                    </div>
-                    <h3>Jasa Pengolahan Limbah Berizin dan Profesional</h3>
-                    <p>Pengolahan limbah B3 dengan teknologi modern dan ramah lingkungan</p>
-                </div>
-            </div>
-        </div>
+    <section id="fitur" class="grid">
+      <div class="card">
+        <h3>Responsif</h3>
+        <p>Berfungsi di mobile, tablet, dan desktop.</p>
+      </div>
+      <div class="card">
+        <h3>Cepat</h3>
+        <p>Tanpa framework, hanya HTML, CSS, dan JS.</p>
+      </div>
+      <div class="card">
+        <h3>Siap Kustom</h3>
+        <p>Mudah diubah sesuai kebutuhan.</p>
+      </div>
     </section>
 
-    <!-- Layanan Section -->
-    <section class="services-detail">
-        <div class="container">
-            <h2 class="section-title">Layanan Kami</h2>
-            <div class="services-grid">
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Pengelolaan Limbah B3">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pengelolaan Limbah B3</h3>
-                        <p>Melayani pengelolaan limbah B3 dalam semua fase, mulai dari fase solid, liquid, dan sludge dengan standar keamanan tertinggi.</p>
-                        <a href="#detail-b3" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=600&h=400&fit=crop" alt="Pengangkutan Limbah">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pengangkutan Limbah</h3>
-                        <p>Melayani pengangkutan limbah yang dilengkapi dengan legalitas lengkap dan pengemudi yang bersertifikat untuk keamanan maksimal.</p>
-                        <a href="#detail-angkut" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1584267385494-9fdd9b7ad2c3?w=600&h=400&fit=crop" alt="Pengolahan Air">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pengolahan Air Limbah Industri</h3>
-                        <p>Pengolahan air limbah untuk mengubah air limbah menjadi air yang dapat dikembalikan ke alam atau dapat digunakan kembali.</p>
-                        <a href="#detail-air" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1518709779341-1f907b9df2f7?w=600&h=400&fit=crop" alt="Limbah Minyak">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pengelolaan Limbah Minyak dan Gas</h3>
-                        <p>Menyediakan jasa pengolahan limbah pengeboran untuk mendukung industri minyak dan gas di Indonesia.</p>
-                        <a href="#detail-migas" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1532619187608-e5375cab36aa?w=600&h=400&fit=crop" alt="Pengemasan Ulang">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pengemasan Ulang Limbah B3</h3>
-                        <p>Layanan pengemasan ulang limbah B3 sesuai standar keamanan dan regulasi yang berlaku.</p>
-                        <a href="#detail-kemas" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-                <div class="service-item">
-                    <div class="service-image">
-                        <img src="https://images.unsplash.com/photo-1605600659908-0ef719419d41?w=600&h=400&fit=crop" alt="Pemusnahan Dokumen">
-                    </div>
-                    <div class="service-content">
-                        <h3>Pemusnahan Dokumen Bersertifikat</h3>
-                        <p>Jasa pemusnahan dokumen dan produk kadaluarsa yang aman, legal, dan disertai dengan sertifikat resmi.</p>
-                        <a href="#detail-musnahkan" class="btn-text">Selengkapnya <i class="fas fa-arrow-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+    <section id="mulai" class="cta">
+      <h2>Siap mulai?</h2>
+      <a class="btn primary" href="#fitur">Bangun sekarang</a>
     </section>
-
-    <!-- Why Choose Section -->
-    <section id="tentang" class="why-choose">
-        <div class="container">
-            <h2 class="section-title">Mengapa Memilih Kami?</h2>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h4>Berizin Lengkap</h4>
-                    <p>Semua layanan kami dilengkapi dengan perizinan resmi dari instansi terkait</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h4>Tim Profesional</h4>
-                    <p>Didukung oleh tenaga ahli berpengalaman dan tersertifikasi di bidangnya</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h4>Teknologi Modern</h4>
-                    <p>Menggunakan peralatan dan teknologi terkini untuk hasil optimal</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-leaf"></i>
-                    </div>
-                    <h4>Ramah Lingkungan</h4>
-                    <p>Proses pengolahan yang memperhatikan kelestarian lingkungan</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Industri Section -->
-    <section class="industries">
-        <div class="container">
-            <h2 class="section-title">Industri yang Kami Layani</h2>
-            <div class="industries-grid">
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-hospital"></i>
-                    </div>
-                    <p>Medis & Kesehatan</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-pills"></i>
-                    </div>
-                    <p>Farmasi & Bioteknologi</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <p>Manufaktur</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-oil-can"></i>
-                    </div>
-                    <p>Minyak & Gas</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-flask"></i>
-                    </div>
-                    <p>Laboratorium Komersil</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-atom"></i>
-                    </div>
-                    <p>Oleokimia</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-seedling"></i>
-                    </div>
-                    <p>Agrokimia</p>
-                </div>
-                <div class="industry-item">
-                    <div class="industry-icon">
-                        <i class="fas fa-landmark"></i>
-                    </div>
-                    <p>Pemerintah & Institusi</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Partners Section -->
-    <section class="partners">
-        <div class="container">
-            <h2 class="section-title">Mitra Kami</h2>
-            <div class="partners-slider">
-                <div class="partners-track">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+1" alt="Partner 1">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+2" alt="Partner 2">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+3" alt="Partner 3">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+4" alt="Partner 4">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+5" alt="Partner 5">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+6" alt="Partner 6">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+7" alt="Partner 7">
-                    <img src="https://via.placeholder.com/150x80/cccccc/666666?text=Partner+8" alt="Partner 8">
-                </div>
-            </div>
-            <p class="partners-note">Dan masih banyak mitra strategis lainnya</p>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section id="kontak" class="cta-section">
-        <div class="container">
-            <h2>Butuh Konsultasi? Hubungi Kami untuk Informasi Selengkapnya</h2>
-            <a href="https://wa.me/628123456789" class="btn btn-light" target="_blank">
-                <i class="fab fa-whatsapp"></i> Kontak Kami
-            </a>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-col">
-                    <img src="Logo-anda.png" alt="SPLI Logo" class="footer-logo">
-                    <p>Kami adalah perusahaan pengelola limbah B3 dengan pengalaman lebih dari 20 tahun, pada kegiatan pengangkutan, pengumpulan dan pengolahan limbah Bahan Berbahaya dan Beracun (B3).</p>
-                    <div class="certifications">
-                        <img src="https://via.placeholder.com/80x60/cccccc/666666?text=ISO" alt="ISO Certification">
-                        <img src="https://via.placeholder.com/80x60/cccccc/666666?text=SMK3" alt="SMK3 Certification">
-                        <img src="https://via.placeholder.com/80x60/cccccc/666666?text=PROPER" alt="PROPER">
-                    </div>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Link Cepat</h4>
-                    <ul>
-                        <li><a href="#tentang">Tentang Kami</a></li>
-                        <li><a href="#layanan">Layanan</a></li>
-                        <li><a href="#teknologi">Teknologi</a></li>
-                        <li><a href="#kontak">Kontak</a></li>
-                        <li><a href="#karir">Karir</a></li>
-                        <li><a href="#portal-klien">Portal Klien</a></li>
-                    </ul>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Social Media</h4>
-                    <div class="social-links">
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    </div>
-                    
-                    <h4 style="margin-top: 30px;">Head Office</h4>
-                    <p>Komplek Majapahit Permai, Blok A 108-110<br>
-                    Gambir, Jakarta Pusat<br>
-                    DKI Jakarta 10160</p>
-                    <p><i class="fas fa-phone"></i> (021) 384 5761</p>
-                    <p><i class="fas fa-envelope"></i> info@spli.co.id</p>
-                </div>
-                
-                <div class="footer-col">
-                    <h4>Fasilitas Kami</h4>
-                    <div class="facilities-list">
-                        <div class="facility">
-                            <h5>Cilegon 1</h5>
-                            <p>Jl. Australia II No. Kav. H1/2<br>KIEC, Kota Cilegon, Banten</p>
-                        </div>
-                        <div class="facility">
-                            <h5>Cilegon 2</h5>
-                            <p>Jl. Australia 1 Kav. B1/2<br>KIEC, Kota Cilegon, Banten</p>
-                        </div>
-                        <div class="facility">
-                            <h5>Semarang</h5>
-                            <p>Jl. Kw. Industri Candi<br>Tahap V No.A2 53-55<br>Kota Semarang</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-bottom">
-            <div class="container">
-                <p>&copy; 2024 PT. Sarana Pamunah Limbah Indonesia. All rights reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Float Button -->
-    <a href="https://wa.me/628123456789" class="whatsapp-float" target="_blank" aria-label="Chat WhatsApp">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
-    <script src="script.js"></script>
+  </main>
+  <footer class="container footer">
+    <p>© 2026 Website Spli</p>
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
